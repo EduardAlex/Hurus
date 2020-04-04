@@ -1,0 +1,8 @@
+int num
+str name
+out | "Privet, sta te govorze?" | endl
+input -> name
+out | endl | "Privet, " | name | endl
+out | "Say a number"
+input -> num
+out | "Your number was " | num
